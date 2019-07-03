@@ -1,15 +1,15 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+     <!--Header-->
+    <section class="pb-6 flex justify-center bg-orange-600 justify-between">
+      <div class="text-right text-white inline-block pl-1 cursor-wait">Logo here</div>
+      <h1 class="text-center text-white text-3xl inline-block font-bold pt-2">Josh's Hip Hop Emporium</h1>
+      <div class="text-right text-white">
+        <a class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Contact Me</a>
+        <br>
+        <a class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Other</a>
+      </div>
+    </section>
   </div>
 </template>
 

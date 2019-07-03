@@ -31,6 +31,10 @@
             </li>      
           </ol>
         </section>
+        <!--Michael button-->
+        <div class="text-center my-6 text-lg">
+          <a href="/michael" class="rounded border border-orange-600 border-8 p-2 hover:bg-orange-600 cursor-pointer">Micheal Press This</a>
+        </div>
         <!--Rappers-->
         <div class="p-2 bg-orange-600 mt-6 mx-4">
           <div class="text-center text-white text-xl uppercase">
@@ -132,46 +136,32 @@
           <input class="p-4 border border-gray-500 " placeholder="Type here to waste time">
         </div>
         <!--Image with text in it-->
-        <div class="text-center h-64 lg:h-screen bg-contain bg-center bg-no-repeat m-6" style="background-image: url('/img/damn.png');">
+        <div class="text-center h-64 lg:h-screen bg-contain bg-center bg-no-repeat m-6" style="background-image: url('/xampp/htdocs/my-gridsome-site/src/img/damn.png');">
               <p class="text-2xl inline-block bg-orange-600 rounded-lg text-white px-2">This is the GOAT</p>
         </div>
-        <!--Kendrick button-->
-        <div class="text-center mb-6">
-          <a href="https://en.wikipedia.org/wiki/Kendrick_Lamar" class="rounded border border-orange-600 border-8 p-2 hover:bg-orange-600 cursor-pointer">Press here!</a>
-        </div>
         <!--Window-->
-        <div class="bg-fixed bg-center h-64 mb-6 mx-4" style="background-image: url('/img/chance trip.jpg');"></div>
+        <div class="bg-fixed bg-center h-64 mb-6 mx-4" style="background-image: url('/xampp/htdocs/my-gridsome-site/src/img/chance trip.jpg');"></div>
         <!--Hip hop art-->
         <div class="bg-orange-600 text-center text-white mx-4 my-6 text-xl">
           <div class="text-xl">Various Hip Hop Wallpapers That I Use</div>
           <div class="w-full h-64 lg:h-screen overflow-scroll">
             <div class="flex flex-wrap p-2 bg-blue-100 justify-center">
-              <img src="/img/andersonpaak.jpg" class="block mt-1">
-              <img src="/img/biggie.jpg" class="block mt-1">
-              <img src="/img/bobbyt2.jpg" class="block mt-1">
-              <img src="/img/bronson.jpg" class="block mt-1">
-              <img src="/img/chance acid rap.jpg" class="block mt-1">
-              <img src="/img/frank nirvana.jpg" class="block mt-1">
-              <img src="/img/gambino 3005.jpg" class="block mt-1">
-              <img src="/img/jay z.jpg" class="block mt-1">
-              <img src="/img/jid.jpg" class="block mt-1">
-              <img src="/img/j cole.png" class="block mt-1">
-              <img src="/img/kanye cartoon thing.jpg" class="block mt-1">
-              <img src="/img/joey.jpg" class="block mt-1">
-              <img src="/img/isaiah rashad.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/andersonpaak.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/biggie.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/bobbyt2.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/bronson.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/chance acid rap.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/frank nirvana.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/gambino 3005.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/jay z.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/jid.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/j cole.png" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/kanye cartoon thing.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/joey.jpg" class="block mt-1">
+              <img src="/xampp/htdocs/my-gridsome-site/src/img/isaiah rashad.jpg" class="block mt-1">
             </div>
           </div>
         </div>
-        <!--Footer-->
-        <div class="w-full bg-orange-600 text-white flex sm:flex-col lg:flex-row justify-center">
-          <div class="block">
-              <h3 class="text-center text-xl py-3">Josh's Hip Hop Emporium</h3>
-              <div class="text-center pb-6 cursor-wait">Logo here</div>
-          </div>   
-          <div class="block text-center pb-2 lg:order-first mt-4 lg:w-1/3">Designing mediocre at best websites since yesterday</div>
-          <div class="block text-center pb-6 mt-4 lg:w-1/3">Instagram and Snapchat: @bestorthanu</div>
-        </div>
-        <div class="text-center text-white w-full bg-orange-600 text-xs py-4">Copyright © 2019 Joshua Bestor. All Rights Reserved.</div>
       </div>
     </body>
 

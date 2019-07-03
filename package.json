@@ -13,6 +13,7 @@
     "tailwindcss": "^1.0.4"
   },
   "devDependencies": {
+    "gridsome-plugin-tailwind": "0.0.2",
     "stylelint-config-recommended": "^2.2.0"
   }
 }

@@ -8,7 +8,7 @@
         <div class="text-right text-white">
           <a href="/contact" class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Contact Me</a>
           <br>
-          <a class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Other</a>
+          <a href="/other" class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Other</a>
         </div>
       </section>
     </header>

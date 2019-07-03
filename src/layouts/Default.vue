@@ -6,7 +6,7 @@
         <div class="text-right text-white inline-block pl-1 cursor-wait">Logo here</div>
         <a href="/" class="text-center text-white text-3xl inline-block font-bold pt-2">Josh's Hip Hop Emporium</a>
         <div class="text-right text-white">
-          <a class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Contact Me</a>
+          <a href="/contact" class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Contact Me</a>
           <br>
           <a class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Other</a>
         </div>

@@ -7,7 +7,13 @@
 </template>
 
 <script>
+import Layout from '~/layouts/JHHE.vue'
+
 export default {
+  components: {
+    Layout
+  },
+  
   metaInfo: {
     title: 'About us'
   }

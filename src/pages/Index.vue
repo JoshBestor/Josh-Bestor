@@ -11,8 +11,7 @@
     </head>
 
     <body class="antialiased">
-      <div class="bg-blue-200">
-      
+      <div class="bg-blue-200">      
         <!--Three parts of rap-->
         <section class="text-white bg-orange-600 mx-4 mt-6 px-6 pb-4">
           <div class="text-center text-xl">The Three Pillars of Hip Hop</div>
@@ -136,29 +135,29 @@
           <input class="p-4 border border-gray-500 " placeholder="Type here to waste time">
         </div>
         <!--Image with text in it-->
-        <div class="text-center h-64 lg:h-screen bg-contain bg-center bg-no-repeat m-6" style="background-image: url('/xampp/htdocs/my-gridsome-site/src/img/damn.png');">
+        <div class="text-center h-64 lg:h-screen bg-contain bg-center bg-no-repeat m-6" style="background-image: url('https://i.imgur.com/npIaEPd.png');">
               <p class="text-2xl inline-block bg-orange-600 rounded-lg text-white px-2">This is the GOAT</p>
         </div>
         <!--Window-->
-        <div class="bg-fixed bg-center h-64 mb-6 mx-4" style="background-image: url('/xampp/htdocs/my-gridsome-site/src/img/chance trip.jpg');"></div>
+        <div class="bg-fixed bg-center h-64 mb-6 mx-4" style="background-image: url('https://i.imgur.com/4W7cwDb.jpg');"></div>
         <!--Hip hop art-->
         <div class="bg-orange-600 text-center text-white mx-4 my-6 text-xl">
           <div class="text-xl">Various Hip Hop Wallpapers That I Use</div>
           <div class="w-full h-64 lg:h-screen overflow-scroll">
             <div class="flex flex-wrap p-2 bg-blue-100 justify-center">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/andersonpaak.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/biggie.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/bobbyt2.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/bronson.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/chance acid rap.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/frank nirvana.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/gambino 3005.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/jay z.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/jid.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/j cole.png" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/kanye cartoon thing.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/joey.jpg" class="block mt-1">
-              <img src="/xampp/htdocs/my-gridsome-site/src/img/isaiah rashad.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/Ga2ruZN.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/Ltm8G6T.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/LsaO5d7.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/J7m0bL7.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/n1xpqHp.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/rJWKbIj.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/GJ4ZEPO.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/e1QXdZT.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/Jf8suxt.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/OjVQOQB.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/90JadRl.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/3k0nNTX.jpg" class="block mt-1">
+              <img src="https://i.imgur.com/lmO72jd.jpg" class="block mt-1">
             </div>
           </div>
         </div>

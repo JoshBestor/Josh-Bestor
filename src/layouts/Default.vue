@@ -18,7 +18,7 @@
     <!--Footer-->
       <div class="w-full bg-orange-600 text-white flex sm:flex-col lg:flex-row justify-center">
         <div class="block">
-            <h3 class="text-center text-xl py-3">Josh's Hip Hop Emporium</h3>
+            <a href="/" class="text-center text-xl py-3">Josh's Hip Hop Emporium</a>
             <div class="text-center pb-6 cursor-wait">Logo here</div>
         </div>   
         <div class="block text-center pb-2 lg:order-first mt-4 lg:w-1/3">Designing mediocre at best websites since yesterday</div>

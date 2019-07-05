@@ -112,6 +112,16 @@
                 </div>
               </div>
           </label>
+          <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
+              <span class="text-lg underline">Tyler, the Creator</span>
+              <div>
+                <div >Notable Albums:</div>
+                <div class="flex flex-col">
+                  <div>Igor</div>
+                  <div>Wolf</div>
+                </div>
+              </div>
+          </label>
           </div>
         </div>
         <!--Google Button-->

@@ -7,8 +7,8 @@
               <li class="m-4">Email: joshbestor@utexas.edu</li>
               <li class="m-4">Phone: 830-777-3983</li>
               <li class="m-4">Snapchat: @bestorthanu</li>
-              <li class="m-4">LinkedIn: <a href="https://www.linkedin.com/in/joshua-bestor/" class="text-blue-600 hover:text-blue-800">Joshua Bestor</a></li>
-              <li class="m-4">GitHub: <a href="https://github.com/JoshBestor/" class="text-blue-600 hover:text-blue-800">JoshBestor</a></li>
+              <li class="m-4">LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/joshua-bestor/" class="text-blue-600 hover:text-blue-800">Joshua Bestor</a></li>
+              <li class="m-4">GitHub: <a target="_blank" href="https://github.com/JoshBestor/" class="text-blue-600 hover:text-blue-800">JoshBestor</a></li>
           </ul>
         </div>
     </section>

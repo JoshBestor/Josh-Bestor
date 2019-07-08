@@ -1,7 +1,9 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <div>This is Game.vue</div>
+        <div class="text-center text-5xl mb-8">Creating Nidhogg in C</div>
+        <div class="bg-orange-200 p-8 border border-blue-600 mb-20">
+        </div>
     </section>
   </Layout>
 </template>

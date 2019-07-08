@@ -18,8 +18,8 @@
     <!--Footer-->
         <div class="w-full bg-orange-200 text-gray-900 flex flex-col md:flex-row justify-center justify-between border-t border-blue-600">
             <a href="/" class="block text-blue-600 font-serif text-center text-xl py-3 hover:text-blue-800">Josh Bestor</a>
-            <div class="block text-center pb-2 lg:order-first mt-4 lg:w-1/3">Designing mediocre at best websites since yesterday</div>
-            <div class="block text-center pb-6 mt-4 lg:w-1/3">
+            <div class="block text-center pb-2 md:order-first mt-4 md:w-1/3">Designing mediocre at best websites since yesterday</div>
+            <div class="block text-center pb-6 mt-4 md:w-1/3">
               <a class="text-blue-600 hover:text-blue-800" href="/contact">Contact</a> me through email or <a class="text-blue-600 hover:text-blue-800" href="https://www.linkedin.com/in/joshua-bestor/">LinkedIn</a>
             </div>
         </div>

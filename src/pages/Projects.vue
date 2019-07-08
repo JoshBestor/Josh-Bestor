@@ -6,7 +6,7 @@
           <a href="/projects/jhhe" class="border border-blue-600 rounded-lg bg-white p-2 lg:w-1/4 mb-4 lg:mx-4">
               <div class="text-center text-xl">Josh's Hip Hip Emporium</div>
               <img class="border border-blue-600 shadow-md" src="https://i.imgur.com/axA5J94.jpg" alt="Jukebox picture">
-              <div>This is an extention of this website where I practiced web development techniques without much care for the design. Click <a  href="/jhhe/" class= "text-blue-600 hover:text-blue-800">here</a> to access it.</div>
+              <div>This is an extention of this website where I practiced web development techniques without much care for the design.</div>
           </a>
           <a href="/projects/vehicle" class="border border-blue-600 rounded-lg bg-white p-2 lg:w-1/4 mb-4 lg:mx-4">
               <div class="text-center text-xl">Autonomous Vehicle</div>

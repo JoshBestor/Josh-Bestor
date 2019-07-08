@@ -3,7 +3,7 @@
     <header>
     <!--Header-->
       <section class="pb-6 flex justify-center bg-orange-600 justify-between">
-        <a href="/" class="text-right text-white inline-block pl-1 cursor-pointer">Back to Josh Bestor</a>
+        <a href="/projects/jhhe" class="text-right text-white inline-block pl-1 cursor-pointer">Back to Josh Bestor</a>
         <a href="/jhhe" class="text-center text-white text-3xl inline-block font-bold pt-2">Josh's Hip Hop Emporium</a>
         <div class="text-right text-white">
           <a href="/jhhe/contact" class="text-right inline-block pr-1 hover:text-gray-700 cursor-pointer">Contact Me</a>

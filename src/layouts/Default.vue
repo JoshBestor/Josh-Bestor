@@ -20,7 +20,7 @@
             <a href="/" class="block text-blue-600 font-serif text-center text-xl py-3 hover:text-blue-800">Josh Bestor</a>
             <div class="block text-center pb-2 lg:order-first mt-4 lg:w-1/3">Designing mediocre at best websites since yesterday</div>
             <div class="block text-center pb-6 mt-4 lg:w-1/3">
-              <a class="text-blue-600 underline" href="/contact">Contact</a> me through email or <a class="text-blue-600 underline" href="https://www.linkedin.com/in/joshua-bestor/">LinkedIn</a>
+              <a class="text-blue-600 hover:text-blue-800" href="/contact">Contact</a> me through email or <a class="text-blue-600 hover:text-blue-800" href="https://www.linkedin.com/in/joshua-bestor/">LinkedIn</a>
             </div>
         </div>
         <div class="text-center text-gray-900 w-full bg-orange-200 text-xs py-4">Copyright © 2019 Joshua Bestor. All Rights Reserved.</div>

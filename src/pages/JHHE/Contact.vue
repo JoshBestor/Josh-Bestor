@@ -1,7 +1,7 @@
 <template>
   <Layout class="bg-blue-200">
     <section class="text-white bg-orange-600 mx-4 mt-6 px-6 pb-4">
-      <div class="text-center text-xl">The Three Pillars of Hip Hop</div>
+      <div class="text-center text-xl">Contact Me</div>
       <ul class=" list-disc text-gray-900">
         <li class="bg-blue-100 shadow rounded p-2">
           <h3 class="text-lg">Phone</h3>

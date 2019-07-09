@@ -23,11 +23,11 @@
             </div>
         </div>
         <div class="flex items-center md:items-start flex-col md:flex-row bg-orange-200 border border-blue-600 mb-10 p-8">
-          <div class="p-2 w-1/2 md:mr-8 bg-white border border-blue-600 rounded-lg">
+          <div class="p-2 md:w-1/2 md:mr-8 bg-white border border-blue-600 rounded-lg">
             <div class="text-center text-2xl">A Texas Instraments Microcontroller</div>
             <img src="https://i.imgur.com/7M26sXS.jpg?1" class="border border-blue-600">
           </div>
-          <div class="p-2 mt-8 md:mt-0 w-1/2 bg-white border border-blue-600 rounded-lg">
+          <div class="p-2 mt-8 md:mt-0 md:w-1/2 bg-white border border-blue-600 rounded-lg">
             <div class="text-center text-2xl">Nidhogg Hero</div>
             <img src="https://i.imgur.com/ZxRgOJD.gif?1" class="border border-blue-600">
           </div>

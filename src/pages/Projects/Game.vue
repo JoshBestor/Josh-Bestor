@@ -24,10 +24,10 @@
         </div>
         <div class="flex bg-orange-200 border border-blue-600 mb-10 p-8">
           <div class="pr-4 w-1/2">
-            <img src="https://i.imgur.com/7M26sXS.jpg?1" class="">
+            <img src="https://i.imgur.com/7M26sXS.jpg?1" class="border border-blue-600">
           </div>
           <div class="pl-4 w-1/2">
-            <img src="https://i.imgur.com/ZxRgOJD.gif?1" class="">
+            <img src="https://i.imgur.com/ZxRgOJD.gif?1" class="border border-blue-600">
           </div>
         </div>
         <div class="bg-orange-200 p-8 border border-blue-600 mb-10">

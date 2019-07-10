@@ -36,7 +36,7 @@ export default {
   },
   
   metaInfo: {
-    title: 'About us'
+    title: 'JHHE'
   }
 }
 </script>

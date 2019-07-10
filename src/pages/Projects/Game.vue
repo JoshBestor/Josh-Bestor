@@ -45,7 +45,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Contact'
+    title: 'Projects'
   }
 }
 </script>

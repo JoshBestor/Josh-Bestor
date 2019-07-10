@@ -29,6 +29,8 @@
 </template>
 
 <script>
+
+
 export default {
   metaInfo: {
     title: 'Projects'

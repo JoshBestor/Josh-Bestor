@@ -27,8 +27,8 @@
             <p class="mt-2">Unfortuanately, this is the only video of the project that I still have. It fails on the 90 degree corner. To fix this, We moved the front sensors further apart. This caused it to go less straight overall but it could then pass the sharp corner. It goes slowly and only in small spurts because it originally went too fast and would often pass over the line.</p>
           </div>
         </div>
-        <div class="justify-center sm:hidden mt-10">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/wHgdWEj4M3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="flex justify-center sm:hidden mt-10">
+          <iframe src="https://www.youtube.com/embed/wHgdWEj4M3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
   </Layout>

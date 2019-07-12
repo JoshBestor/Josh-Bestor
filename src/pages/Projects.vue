@@ -4,7 +4,7 @@
         <div class="text-center text-5xl mb-8">Projects</div>
         <div class="flex flex-wrap bg-orange-200 p-4 mb-12 border border-blue-600 justify-center">
           <a href="/projects/jhhe" class="border border-blue-600 rounded-lg bg-white p-2 lg:w-1/4 mb-4 lg:mx-4 hover:bg-blue-200">
-              <div class="text-center text-xl">Josh's Hip Hip Emporium</div>
+              <div class="text-center text-xl">Josh's Hip Hop Emporium</div>
               <img class="border border-blue-600 shadow-md" src="https://i.imgur.com/axA5J94.jpg" alt="Jukebox picture">
               <div>This is an extention of this website where I practiced web development techniques without much care for the design.</div>
           </a>

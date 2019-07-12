@@ -10,7 +10,7 @@
               </p>
               <br>
               <p>
-                The vehicle constisted of two small motors that could individually move the two tracks, a body, an arduino, a breadboard, and two color sensors. Each motor was conected seperately to the arduino so that we could controll which direction it would go. We put the sensors in front of the vehicle so that they wouldn't be influenced by shadows and connected them to the arduino. The sensors output a different voltage based on what color is underneath them.
+                The vehicle constisted of two small motors that could individually move the two tracks, a body, an arduino, a breadboard, and two color sensors. Each motor was conected seperately to the arduino so that we could control which direction it would go. We put the sensors in front of the vehicle so that they wouldn't be influenced by shadows and connected them to the arduino. The sensors output a different voltage based on what color is underneath them.
               </p>
               <br>
               <p>

@@ -21,6 +21,12 @@
             </li>      
           </ol>
         </section>
+        <!--Bored button-->
+        <div>
+          Bored Button
+          <br>
+          {{ counter }}
+        </div>
         <!--Michael button-->
         <div class="text-center my-6 text-lg">
           <a href="/jhhe/michael" class="rounded border border-orange-600 border-8 p-2 hover:bg-orange-600 cursor-pointer">Micheal Press This</a>
@@ -172,6 +178,10 @@
 import Layout from '~/layouts/JHHE.vue'
 
 export default {
+  data: {
+    counter: 'Hi'
+  },
+
   components: {
     Layout
   },

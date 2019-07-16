@@ -14,18 +14,14 @@
         <div class="flex justify-center mb-10">
           <a href="/jhhe" class="bg-blue-600 hover:bg-blue-800 cursor-pointer border border-blue-600 text-white text-xl text-center text-semibold rounded-full px-3 py-2">Visit the Website</a>
         </div>
-        <div class="bg-orange-200 p-8 border border-blue-600 mb-10">
-            <div class="flex justify-between flex-col md:flex-row bg-white border border-blue-600 rounded-lg p-2">
-                <div class="content-center text-center md:text-left">You can find the code on GitHub<br>Look under src/JHHE for the content</div>
-                <a href="https://github.com/JoshBestor/Josh-Bestor" class="bg-blue-600 hover:bg-blue-800 cursor-pointer border border-blue-600 text-white text-xl text-center text-semibold rounded-full px-2 py-1">Code Here</a>            
-            </div>
-        </div>
+        <gitHubLink link="https://github.com/JoshBestor/Josh-Bestor">Look under src/JHHE for the content</gitHubLink>
     </section>
   </Layout>
 </template>
 
 <script>
 import projectAbout from '~/components/Project_About.vue'
+import gitHubLink from '~/components/GitHub_Link.vue'
 
 export default {
   metaInfo: {
@@ -33,7 +29,8 @@ export default {
   },
 
   components: {
-    projectAbout
+    projectAbout,
+    gitHubLink
   }
 }
 </script>

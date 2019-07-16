@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'Project',
+  name: 'Artist',
 
   props: [
       'name',

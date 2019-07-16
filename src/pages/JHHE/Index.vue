@@ -23,7 +23,7 @@
         </section>
         <!--Bored button-->
         <div class="text-center my-6 text-lg">
-          <a href="/jhhe/michael" class="text-white rounded p-2 bg-orange-600 cursor-pointer">Bored Button<br>{{ counter }}</a>
+          <div @click="counter+=1" class="inline-block text-white rounded p-2 bg-orange-600 cursor-pointer">This has been pressed {{ counter }} times</div>
         </div>
         <!--Michael button-->
         <div class="text-center my-6 text-lg">
@@ -96,8 +96,10 @@ import Layout from '~/layouts/JHHE.vue'
 import Artist from '~/components/Artist.vue'
 
 export default {
-  data: {
-    counter: 'Hi'
+  data: function() {
+    return {
+      counter: 0
+    }
   },
 
   components: {

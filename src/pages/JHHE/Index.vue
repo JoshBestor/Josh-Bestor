@@ -22,10 +22,8 @@
           </ol>
         </section>
         <!--Bored button-->
-        <div>
-          Bored Button
-          <br>
-          {{ counter }}
+        <div class="text-center my-6 text-lg">
+          <a href="/jhhe/michael" class="text-white rounded p-2 bg-orange-600 cursor-pointer">Bored Button<br>{{ counter }}</a>
         </div>
         <!--Michael button-->
         <div class="text-center my-6 text-lg">
@@ -38,96 +36,15 @@
           </div>
           <div class="flex flex-wrap p-2 bg-blue-100 justify-center">
             <!--If i was actually doing this, it would be in a database-->
-            <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-                <span class="text-lg underline">Kendrick Lamar</span>
-                <div>
-                  <div >Notable Albums:</div>
-                  <div class="flex flex-col">
-                    <div>Good Kid MAAD City</div>
-                    <div>To Pimp a Butterfly</div>
-                  </div>
-                </div>
-            </label>
-            <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-                <span class="text-lg underline">J Cole</span>
-                <div>
-                  <div >Notable Albums:</div>
-                  <div class="flex flex-col">
-                    <div>2014 Forest Hills Drive</div>
-                    <div>KOD</div>
-                  </div>
-                </div>
-            </label>
-            <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-                <span class="text-lg underline">J.I.D.</span>
-                <div>
-                  <div >Notable Albums:</div>
-                  <div class="flex flex-col">
-                    <div>Dicaprio 2</div>
-                    <div>The Never Story</div>
-                  </div>
-                </div> 
-            </label>
-            <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-                <span class="text-lg underline">Kanye West</span>
-                <div>
-                  <div >Notable Albums:</div>
-                  <div class="flex flex-col">
-                    <div>Graduation</div>
-                    <div>My Beautiful Dark Twisted Fantasy</div>
-                  </div>
-                </div>
-            </label>
-            <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-              <span class="text-lg underline">Run the Jewels</span>
-              <div>
-                <div >Notable Albums:</div>
-                <div class="flex flex-col">
-                  <div>Run the Jewels</div>
-                  <div>Run the Jewels 3</div>
-                </div>
-              </div>
-          </label>
-          <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-              <span class="text-lg underline">The Roots</span>
-              <div>
-                <div >Notable Albums:</div>
-                <div class="flex flex-col">
-                  <div>How I Got Over</div>
-                  <div>Phrenology</div>
-                </div>
-              </div>
-          </label>
-          <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-              <span class="text-lg underline">Anderson Paak</span>
-              <div>
-                <div >Notable Albums:</div>
-                <div class="flex flex-col">
-                  <div>Malibu</div>
-                  <div>Venice</div>
-                </div>
-              </div>
-          </label>
-          <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-              <span class="text-lg underline">Childish Gambino</span>
-              <div>
-                <div >Notable Albums:</div>
-                <div class="flex flex-col">
-                  <div>Because the Internet</div>
-                  <div>Camp</div>
-                </div>
-              </div>
-          </label>
-          <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
-              <span class="text-lg underline">Tyler, the Creator</span>
-              <div>
-                <div >Notable Albums:</div>
-                <div class="flex flex-col">
-                  <div>Igor</div>
-                  <div>Wolf</div>
-                </div>
-              </div>
-          </label>
+            <artist name="Kendrick Lamar" album_1="Good Kid MAAD City" album_2="To Pimp a Butterfly"></artist>
+            <artist name="J Cole" album_1="2014 Forest Hills Drive" album_2="KOD"></artist>
+            <artist name="J.I.D" album_1="Dicaprio 2" album_2="The Never Story"></artist>
+            <artist name="Kanye West" album_1="Graduation" album_2="My Beautiful Dark Twisted Fantasy"></artist>
+            <artist name="Run the Jewels" album_1="Run the Jewels" album_2="Run the Jewels 3"></artist>
+            <artist name="The Roots" album_1="How I Got Over" album_2="Phrenology"></artist>
+            <artist name="Anderson .Paak" album_1="Malibu" album_2="Venice"></artist>
+            <artist name="Childish Gambino" album_1="Because the Internet" album_2="Camp"></artist>
+            <artist name="Tyler, the Creator" album_1="Igor" album_2="Wolf"></artist>
           </div>
         </div>
         <!--Google Button-->
@@ -176,6 +93,7 @@
 
 <script>
 import Layout from '~/layouts/JHHE.vue'
+import Artist from '~/components/Artist.vue'
 
 export default {
   data: {
@@ -183,7 +101,8 @@ export default {
   },
 
   components: {
-    Layout
+    Layout,
+    Artist
   },
   
   metaInfo: {

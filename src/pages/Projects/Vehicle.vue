@@ -2,22 +2,19 @@
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
         <div class="text-center text-5xl mb-8">Autonomous Vehicle</div>
-        <div class="bg-orange-200 p-8 border border-blue-600 mb-10">
-          <div class="bg-white border border-blue-600 p-2 rounded-lg">
-              <div class="text-center text-2xl">About</div>
-              <p class="">
-                This was the final project for my Introduction to Electrical Engineering class. The goal was to create an autonomous vehicle that could follow a black line on the ground. I worked in a group of six. We had discussions to decide what to do and were able to without any problems. 
-              </p>
-              <br>
-              <p>
-                The vehicle constisted of two small motors that could individually move the two tracks, a body, an arduino, a breadboard, and two color sensors. Each motor was conected seperately to the arduino so that we could control which direction it would go. We put the sensors in front of the vehicle so that they wouldn't be influenced by shadows and connected them to the arduino. The sensors output a different voltage based on what color is underneath them.
-              </p>
-              <br>
-              <p>
-                The arduino is programed in C and at the time there were only two people in the group that knew the language. Unfortunately, I only knew assembly language at the time so I was unable to help code. The code basically just was an infinite loop of moving forward until one of the sensors detected a black line and then redirecting the vehicle to keep on the line.
-              </p>
-          </div>
-        </div>
+        <projectAbout>
+          <p class="">
+            This was the final project for my Introduction to Electrical Engineering class. The goal was to create an autonomous vehicle that could follow a black line on the ground. I worked in a group of six. We had discussions to decide what to do and were able to without any problems. 
+          </p>
+          <br>
+          <p>
+            The vehicle constisted of two small motors that could individually move the two tracks, a body, an arduino, a breadboard, and two color sensors. Each motor was conected seperately to the arduino so that we could control which direction it would go. We put the sensors in front of the vehicle so that they wouldn't be influenced by shadows and connected them to the arduino. The sensors output a different voltage based on what color is underneath them.
+          </p>
+          <br>
+          <p>
+            The arduino is programed in C and at the time there were only two people in the group that knew the language. Unfortunately, I only knew assembly language at the time so I was unable to help code. The code basically just was an infinite loop of moving forward until one of the sensors detected a black line and then redirecting the vehicle to keep on the line.
+          </p>
+        </projectAbout>
         <div class="border border-blue-600 bg-orange-200 p-8">
           <div class="bg-white flex flex-col justify-center border border-blue-600 rounded-lg p-2">
             <div class="text-center text-2xl">A Failed Attempt</div>
@@ -35,9 +32,15 @@
 </template>
 
 <script>
+import projectAbout from '~/components/Project_About.vue'
+
 export default {
   metaInfo: {
     title: 'Projects'
+  },
+
+  components: {
+    projectAbout
   }
 }
 </script>

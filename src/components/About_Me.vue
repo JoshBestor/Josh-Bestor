@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'Artist',
+  name: 'aboutMe',
 
   props: [
       'title',

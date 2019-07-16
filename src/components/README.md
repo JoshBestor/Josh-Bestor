@@ -1,4 +1,4 @@
 Add components that will be imported to Pages and Layouts to this folder.
 Learn more about components here: https://gridsome.org/docs/components
 
-You can delete this file.
+The Artist component is used in ~/JHHE/index for individual hip hop artists. The Project component is used in ~/projects for each project.

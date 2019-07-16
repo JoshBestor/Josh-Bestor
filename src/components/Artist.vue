@@ -1,3 +1,4 @@
+<!--This is used in ~/JHHE/index in the flex about rappers I like.-->
 <template>
     <label class="p-1 bg-orange-600 text-white rounded m-4 text-center">
         <span class="text-lg underline">{{ name }}</span>

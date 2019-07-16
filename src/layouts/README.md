@@ -2,4 +2,4 @@ Layout components are used to wrap pages and templates. Layouts should contain c
 
 Learn more about Layouts: https://gridsome.org/docs/layouts
 
-You can delete this file.
+The default layout is used for everything except the Josh's Hip Hop Emporium subsite which is taken care of by the JHHE layout. 

@@ -6,4 +6,10 @@ import DefaultLayout from '~/layouts/Default.vue'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  head.link.push({
+    rel: 'icon',
+    href: '/icons/Icon.png',
+    color: '#62615a'
+  })
 }

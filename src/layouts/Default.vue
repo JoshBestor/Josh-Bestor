@@ -3,10 +3,16 @@
     <header>
     <!--Header-->
       <section class="flex justify-center bg-orange-200 justify-between border-b border-blue-600 px-2">
-        <div>
-          <a href="/" class=""><img class="h-32" src="https://i.imgur.com/EQfkhu9.png?1"></a>
+        <div class="pt-4 hidden sm:block">
+          <a href="/"><img class="h-8" src="https://i.imgur.com/ttoVbsW.png?1"></a>
         </div>
-        <div class="text-right text-gray-900 flex flex-col justify-right text-2xl pt-3">
+        <div class="hidden sm:block">
+          <a href="/"><img class="h-24" src="https://i.imgur.com/CTiMYh7.png?1"></a>
+        </div>
+        <div class="sm:hidden">
+          <a href="/"><img class="h-32" src="https://i.imgur.com/EQfkhu9.png?1"></a>
+        </div>
+        <div class="text-right text-gray-900 flex flex-col justify-right text-2xl pt-2">
           <a href="/contact" class="mx-2 text-right inline-block pr-1 hover:text-gray-600 cursor-pointer">Contact Me</a>
           <a href="/projects" class="mx-2 text-right inline-block pr-1 hover:text-gray-600 cursor-pointer">Projects</a>            
         </div>

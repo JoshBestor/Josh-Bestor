@@ -16,7 +16,8 @@ import aboutMe from '~/components/About_Me.vue'
 
 export default {
   metaInfo: {
-    title: 'Home'
+    title: 'Home',
+    description: 'The official website of the Electrical and Computer Engineer Josh Bestor.'
   },
 
   components: {

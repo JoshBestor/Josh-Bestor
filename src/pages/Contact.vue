@@ -18,7 +18,14 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Contact'
+    title: 'Contact',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'Every possible way to contact me.'
+      },
+    ]
   }
 }
 </script>

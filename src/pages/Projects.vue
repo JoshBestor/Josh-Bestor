@@ -17,7 +17,14 @@ import Project from '~/components/Project.vue'
 
 export default {
   metaInfo: {
-    title: 'Projects'
+    title: 'Projects',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'A collection of my favorite projects that I have undergone.'
+      },
+    ]
   },
   
   components: {

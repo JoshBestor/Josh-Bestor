@@ -36,7 +36,14 @@ import projectAbout from '~/components/Project_About.vue'
 
 export default {
   metaInfo: {
-    title: 'Projects'
+    title: 'Projects',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'A description of an autonomous vehicle that I created.'
+      },
+    ]
   },
 
   components: {

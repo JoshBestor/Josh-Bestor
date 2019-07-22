@@ -22,7 +22,14 @@ import gitHubLink from '~/components/GitHub_Link.vue'
 
 export default {
   metaInfo: {
-    title: 'Projects'
+    title: 'Projects',
+    meta: [
+      {
+        key: 'description',
+        name: 'description',
+        content: 'A description of the website that you are currently on.'
+      },
+    ]
   },
 
   components: {

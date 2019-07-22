@@ -1,7 +1,7 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <div class="text-center text-5xl mb-8">Contact</div>
+        <h1 class="text-center text-5xl mb-8">Contact</h1>
         <div class="bg-orange-200 p-6 sm:p-8 border border-blue-600 mb-20">
           <ul class="flex flex-col text-xl list-disc bg-white px-4 border border-blue-600 rounded-lg">
               <li class="m-4">Email: <br class="sm:hidden">joshbestor@utexas.edu</li>

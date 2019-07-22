@@ -1,7 +1,7 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <div class="text-center text-5xl mb-8">The Josh's Hip Hop Emporium Website</div>
+        <h1 class="text-center text-5xl mb-8">The Josh's Hip Hop Emporium Website</h1>
         <projectAbout>
           <p class="">
             This was my first experiment with both Gridsome and Tailwind. I created multiple pages and my first layout for the project. The layout is the header and footer that can be found on every page. 

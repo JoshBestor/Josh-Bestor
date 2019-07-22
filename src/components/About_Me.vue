@@ -2,7 +2,7 @@
 <template>
     <div class="bg-white border border-blue-600 p-2 mb-4 rounded-lg">
         <div class="flex justify-center">
-            <div class="text-2xl px-2">{{ title }}</div>
+            <h2 class="text-2xl px-2">{{ title }}</h2>
         </div>
         <div class="p-2 flex justify-center">
             <img :src="image" :alt="alternate" class="inline-block shadow-md border border-blue-600">

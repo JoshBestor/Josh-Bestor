@@ -1,7 +1,7 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <div class="text-center text-5xl mb-8">The Josh Bestor Website</div>
+        <h1 class="text-center text-5xl mb-8">The Josh Bestor Website</h1>
         <projectAbout>
           <p class="">
             I created this website to promote my achievements and test my web development skills. I started with a Gridsome Vue.js project. For the styling I use TailwindCSS. I have connected the code with a GitHub repository and I connect the repository with the web service Netlify. Netlify deploys the code from GitHub whenever I push to the repository.

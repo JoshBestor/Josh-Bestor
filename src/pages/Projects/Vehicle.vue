@@ -1,7 +1,7 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <div class="text-center text-5xl mb-8">Autonomous Vehicle</div>
+        <h1 class="text-center text-5xl mb-8">Autonomous Vehicle</h1>
         <projectAbout>
           <p class="">
             This was the final project for my Introduction to Electrical Engineering class. The goal was to create an autonomous vehicle that could follow a black line on the ground. I worked in a group of six. We had discussions to decide what to do and were able to without any problems. 

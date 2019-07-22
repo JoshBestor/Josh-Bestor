@@ -1,7 +1,7 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <div class="text-center text-5xl mb-8">Creating Nidhogg in C</div>
+        <h1 class="text-center text-5xl mb-8">Creating Nidhogg in C</h1>
         <projectAbout>
           <p class="">
             This was the final project for the Introduction to Embedded System class. Embedded Systems are anything that takes a physical, analog input and performs actions digitally. Throughout the class, I worked with a partner and used GitHub to share code and turn in projects.

@@ -2,7 +2,7 @@
 <template>
     <div class="bg-orange-200 p-8 border border-blue-600 mb-10">
       <div class="bg-white border border-blue-600 p-2 rounded-lg">
-        <div class="text-center text-2xl">About</div>
+        <h2 class="text-center text-2xl">About</h2>
         <slot></slot>
       </div>
     </div>

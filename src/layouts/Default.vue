@@ -4,13 +4,13 @@
     <!--Header-->
       <section class="flex justify-center bg-orange-200 justify-between border-b border-blue-600 px-2">
         <div class="pt-4 hidden sm:block">
-          <a href="/"><img class="h-8" src="https://i.imgur.com/ttoVbsW.png?1" alt="A binary circle logo"></a>
+          <a href="/"><img class="h-8 cursor-pointer" src="https://i.imgur.com/ttoVbsW.png?1" alt="A binary circle logo"></a>
         </div>
         <div class="hidden sm:block">
-          <a href="/"><img class="h-24" src="https://i.imgur.com/CTiMYh7.png?1" alt="A binary circle logo"></a>
+          <a href="/"><img class="h-24 cursor-pointer" src="https://i.imgur.com/CTiMYh7.png?1" alt="A binary circle logo"></a>
         </div>
         <div class="sm:hidden">
-          <a href="/"><img class="h-32" src="https://i.imgur.com/EQfkhu9.png?1" alt="A binary circle logo"></a>
+          <a href="/"><img class="h-32 cursor-pointer" src="https://i.imgur.com/CTiMYh7.png?1" alt="A binary circle logo"></a>
         </div>
         <div class="text-right text-gray-900 flex flex-col justify-right text-2xl pt-2">
           <a href="/contact" class="mx-2 text-right inline-block pr-1 hover:text-gray-600 cursor-pointer">Contact Me</a>

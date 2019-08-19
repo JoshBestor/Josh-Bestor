@@ -21,6 +21,11 @@
             </li>      
           </ol>
         </section>
+        <!--Spotify Playlist-->
+        <!--https://open.spotify.com/playlist/3G6lFkQr6DbaAyLAXdvTBM-->
+        <div class="flex justify-center mt-6">
+          <iframe src="https://open.spotify.com/embed/playlist/3G6lFkQr6DbaAyLAXdvTBM" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
         <!--Bored button-->
         <div class="text-center my-6 text-lg">
           <div @click="counter+=1" class="inline-block text-white rounded p-2 bg-orange-600 cursor-pointer">This has been pressed {{ counter }} times</div>

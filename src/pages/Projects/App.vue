@@ -1,18 +1,18 @@
 <template>
   <Layout class="">
     <section class="text-gray-900 mx-4 my-6 px-6">
-        <h1 class="text-center text-5xl mb-8">Creating a Stopwatch in Verilog</h1>
+        <h1 class="text-center text-5xl mb-8">Creating an Android weather app</h1>
         <projectAbout>
           <p class="">
-            This was the final project for the Digital Logic Design class. In the class we learned the basics of digital logic starting with logic gates and ending with datapath components and high level state machines. Throughout the class we had labs using Verilog to create different components on a Xilinx Basys 3 FPGA board with part number XC7A35TCPG236-1.
+            This was the final project for Software Design and Implementation II. In this class I learned Java and furthered my knowledge of data types, multithreading, machine learning, and object oriented programming.
           </p>
           <br>
           <p>
-            The goal of the project was to create a stopwatch that can count up or down from either 00.00, 99.99, or a manually set value. The first step in completing this project was to model the watch using a block diagram to figure out what code I can reuse and what I need to create. From previous labs, I had a hexadecimal to seven segment converter, a clock divider, a load register, a  4 bit carry lookahead adder(CLA), and a finite state machine for the seven segment display. I modified these to reuse them in this lab.
+            The goal of the lab was to use Android Studio to create an Android weather app that uses Dark Sky API to get the required information. The first step in completing this lab was to learn how to use Android Studio through a combination of the documentation, YouTube tutorials, and other online resources. Once I understood the specifics of Android Studio, I used Google's Fused Location provider to get the mobile device's current location. I then made a call to the Dark Sky API and used okhttp3 and an online java class creation tool to parse the JSON that it provided. From there, all that was left was to display the information and design the user interface.
           </p>
           <br>
           <p>
-            After adding the reused code, I needed to create a main controller module, a button debouncer, a state machine for the mode selection, and a timer module that contained an up-down counter. The up-down counter used an incrementer and decrementer made from the CLA and the load register.
+            The two most interesting parts of this lab were adapting my knowledge of Java onto another platform that was different in many ways and using multithreading in the app. Multithreading is used on this app to allow refreshing of the information. It is also utilized a lot in the core Android operating system.
           </p>
         </projectAbout>
         <!-- add pic of block diagram and basys3 board
@@ -43,7 +43,7 @@ export default {
       {
         key: 'description',
         name: 'description',
-        content: 'A description of the Verilog Stopwatch that I created.'
+        content: 'A description of the Android weather app that I created.'
       },
     ]
   },

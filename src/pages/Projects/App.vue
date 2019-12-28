@@ -27,7 +27,7 @@
           </div>
         </div>
         -->
-        <gitHubLink link="https://github.com/JoshBestor/Project_8_Cheaters">Content is under plagiarismCatcher.cpp</gitHubLink>
+        <gitHubLink link="https://github.com/JoshBestor/WeatherApp">Content is under app/src</gitHubLink>
     </section>
   </Layout>
 </template>

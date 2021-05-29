@@ -22,7 +22,7 @@ import aboutMe from '~/components/About_Me.vue'
 export default {
   metaInfo: {
     title: 'Home',
-    description: 'The official website of Josh Bestor, an Electrical and Computer Engineering student at the University of Texas at Austin specializing in Embedded Systems and Software Design.'
+    description: 'The official website of Josh Bestor, an Devops Engineer with an Electrical and Computer Engineering degree from the University of Texas at Austin.'
   },
 
   components: {

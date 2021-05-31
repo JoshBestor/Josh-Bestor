@@ -47,8 +47,7 @@ export default {
   },
 
   components: {
-    projectAbout,
-    gitHubLink
+    projectAbout
   }
 }
 </script>

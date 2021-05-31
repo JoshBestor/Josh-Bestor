@@ -27,14 +27,12 @@
           </div>
         </div>
         -->
-        <gitHubLink link="https://github.com/JoshBestor/PrivacyCheck">Content is under app/src</gitHubLink>
     </section>
   </Layout>
 </template>
 
 <script>
 import projectAbout from '~/components/Project_About.vue'
-import gitHubLink from '~/components/GitHub_Link.vue'
 
 export default {
   metaInfo: {

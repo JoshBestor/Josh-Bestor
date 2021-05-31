@@ -27,7 +27,7 @@
           </div>
         </div>
         -->
-        <gitHubLink link="https://github.com/JoshBestor/WeatherApp">Content is under app/src</gitHubLink>
+        <gitHubLink link="https://github.com/JoshBestor/PrivacyCheck">Content is under app/src</gitHubLink>
     </section>
   </Layout>
 </template>
